@@ -1,0 +1,8 @@
+{
+    "title": "Home Page",
+    "content": {
+        "paragraph_1": "Hey, wanna see something awesome?!",
+        "paragraph_2": "Check out this new internationalization feature!",
+        "paragraph_3": "I can map the texts of each node to the user's language."
+    }
+}
