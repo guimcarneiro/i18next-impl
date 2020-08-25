@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Como Inicializar a Aplicação?
 
-## Available Scripts
+Para executar localmente a aplicação, basta executar **npm install**, e depois **npm run start** na linha de comando dentro da pasta do projeto(ambos os comandos).
 
-In the project directory, you can run:
+## Do que se trata?
 
-### `npm start`
+Trata-se de um exemplo de implementação da biblioteca ***react-i18next***, muito utilizada para fazer internacionalização de aplicações front-end. Basicamente, essa ferramenta faz o chaveamento das mensagens da aplicação de acordo com os idiomas definidos, possibilitando que o usuário altere o idioma da aplicação inteira em tempo real. Há também "plugins" dessa biblioteca, como é o caso do ***languageDetector***, utilizado para reconhecer o idioma padrão do navegador do usuário, permitindo assim a renderização das mensagens naquele idioma.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O ideal é que os arquivos contendo as mensagens da aplicação se encontrem em uma API separada e sejam consumidos sob demanda, permitindo assim que textos renderizados no Front-end sejam alterados em tempo real, sem ter a necessidade de subir novamente o Front-end(o que aconteceria caso os textos estivessem "hardcoded"). Como alternativa, pode-se guardar os arquivos das mensagens na pasta pública da aplicação, como sugerido pela documentação da biblioteca.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Nessa implementação, o usuário tem a possibilidade de trocar de idiomas e navegar em páginas diferentes permanecendo com o idioma escolhido.
 
-### `npm test`
+## O que foi consumido?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Biblioteca ***react-i18next***.
